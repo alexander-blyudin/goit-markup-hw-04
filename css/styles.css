@@ -122,6 +122,17 @@ img {
   background-color: #2f303a;
   padding: 200px 0;
   text-align: center;
+  max-width: 1600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../img/hero/bg-hero.jpeg),
+    linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero .container {
