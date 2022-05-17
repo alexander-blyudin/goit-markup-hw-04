@@ -60,6 +60,8 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ******** Header *********/
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -103,6 +105,7 @@ img {
   margin-right: 10px;
   fill: currentColor;
 }
+/* ********Sections********* */
 .section {
   padding: 94px 0;
 }
@@ -125,6 +128,7 @@ img {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+/* **********Hero*********** */
 .hero {
   background-color: #2f303a;
   padding: 200px 0;
@@ -164,6 +168,7 @@ img {
   margin-right: auto;
   margin-left: auto;
 }
+/* ********Button hero******** */
 .btn-hero {
   color: #ffffff;
   background-color: var(--accent-color);
@@ -181,6 +186,7 @@ img {
 .hide {
   display: none;
 }
+/* ********* Наши приимущества ************ */
 .prior {
   font-size: 14px;
   line-height: 1.14;
@@ -223,7 +229,7 @@ img {
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
-
+/* **********Чем мы занимаемся********** */
 .title-section {
   font-weight: 700;
   line-height: 1.17;
@@ -239,7 +245,7 @@ img {
 .item-title:last-child {
   margin-right: 0;
 }
-
+/* *********Наша команда********** */
 .team {
   background: var(--secondary-light-bg);
   font-size: 16px;
@@ -377,7 +383,7 @@ img {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
-
+/* ***********Footer********* */
 .footer {
   background-color: #2f303a;
   font-size: 14px;
@@ -472,7 +478,7 @@ img {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-
+/* ******Портфоліо***** */
 .btn-list {
   display: flex;
   justify-content: center;
