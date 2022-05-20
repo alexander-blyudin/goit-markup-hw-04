@@ -99,6 +99,7 @@ img {
 
 .auth-cont {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 .auth-icon {
@@ -348,14 +349,6 @@ img {
   display: flex;
 }
 
-.clients-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -453,11 +446,13 @@ img {
 .link:focus {
   color: var(--accent-color);
 }
+
+/* ******Портфоліо***** */
 .btn {
   color: var(--primary-text-color);
   cursor: pointer;
   background-color: #f5f4fa;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
   border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
@@ -466,19 +461,21 @@ img {
 
   letter-spacing: 0.03em;
   padding: 6px 22px;
-  border: 1px solid transparent;
+  border: none;
 }
 
 .btn:hover {
   color: #ffffff;
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-/* ******Портфоліо***** */
+
 .btn-list {
   display: flex;
   justify-content: center;
@@ -514,6 +511,15 @@ img {
   flex-basis: calc(100% / 3-30px);
   margin-top: 30px;
   margin-left: 30px;
+}
+.work-example-link {
+  display: block;
+  text-decoration: none;
+}
+.work-example-link:hover,
+.work-example-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .card-content {
   padding: 20px 24px;
