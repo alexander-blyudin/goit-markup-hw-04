@@ -514,7 +514,6 @@ img {
 }
 .work-example-link {
   display: block;
-  text-decoration: none;
 }
 .work-example-link:hover,
 .work-example-link:focus {
